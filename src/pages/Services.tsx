@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet-async";
 import { Wrench, Home, Layers, Droplets, Search, Flame } from "lucide-react";
 import CTASection from "@/components/CTASection";
 
@@ -92,13 +91,7 @@ const serviceDetails = [
 export default function Services() {
   return (
     <>
-      <Helmet>
-        <title>Our Services | Ryan Roofing & Construction Galway</title>
-        <meta
-          name="description"
-          content="Explore the full range of roofing services offered by Ryan Roofing & Construction in Galway — repairs, installations, flat roofing, gutters, inspections and chimney repairs."
-        />
-      </Helmet>
+      
 
       {/* Page Header */}
       <section className="bg-primary text-primary-foreground py-14 md:py-20">
